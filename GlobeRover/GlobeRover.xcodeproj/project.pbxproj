@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5892FB1777530100EB7F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5892FA1777530100EB7F59 /* UIKit.framework */; };
+		FA5892FD1777530100EB7F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5892FC1777530100EB7F59 /* Foundation.framework */; };
+		FA5892FF1777530100EB7F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5892FE1777530100EB7F59 /* CoreGraphics.framework */; };
+		FA5893011777530100EB7F59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5893001777530100EB7F59 /* CoreData.framework */; };
+		FA58932A1777530200EB7F59 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5893291777530200EB7F59 /* SenTestingKit.framework */; };
+		FA58932B1777530200EB7F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5892FA1777530100EB7F59 /* UIKit.framework */; };
+		FA58932C1777530200EB7F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5892FC1777530100EB7F59 /* Foundation.framework */; };
+		FA58932D1777530200EB7F59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5893001777530100EB7F59 /* CoreData.framework */; };
+		FA5893351777530200EB7F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5893331777530200EB7F59 /* InfoPlist.strings */; };
+		FA5893381777530200EB7F59 /* GlobeRoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5893371777530200EB7F59 /* GlobeRoverTests.m */; };
+		FA589344177753DD00EB7F59 /* bitbucket-globerover.webloc in Resources */ = {isa = PBXBuildFile; fileRef = FA589343177753DD00EB7F59 /* bitbucket-globerover.webloc */; };
+		FA58934D1777542D00EB7F59 /* GRVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5893471777542D00EB7F59 /* GRVAppDelegate.m */; };
+		FA58934E1777542D00EB7F59 /* GRVFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5893491777542D00EB7F59 /* GRVFlipsideViewController.m */; };
+		FA58934F1777542D00EB7F59 /* GRVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58934B1777542D00EB7F59 /* GRVMainViewController.m */; };
+		FA5893501777542D00EB7F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58934C1777542D00EB7F59 /* main.m */; };
+		FA589360177754E200EB7F59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA589354177754E200EB7F59 /* Default-568h@2x.png */; };
+		FA589361177754E200EB7F59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA589355177754E200EB7F59 /* Default.png */; };
+		FA589362177754E200EB7F59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA589356177754E200EB7F59 /* Default@2x.png */; };
+		FA589363177754E200EB7F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA589357177754E200EB7F59 /* InfoPlist.strings */; };
+		FA589364177754E200EB7F59 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA589359177754E200EB7F59 /* MainStoryboard_iPad.storyboard */; };
+		FA589365177754E200EB7F59 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA58935B177754E200EB7F59 /* MainStoryboard_iPhone.storyboard */; };
+		FA589367177754E200EB7F59 /* GlobeRover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA58935E177754E200EB7F59 /* GlobeRover.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA58932E1777530200EB7F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5892EF1777530100EB7F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5892F61777530100EB7F59;
+			remoteInfo = GlobeRover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5892F71777530100EB7F59 /* GlobeRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5892FA1777530100EB7F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA5892FC1777530100EB7F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA5892FE1777530100EB7F59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA5893001777530100EB7F59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA5893281777530200EB7F59 /* GlobeRoverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeRoverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5893291777530200EB7F59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA5893321777530200EB7F59 /* GlobeRoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlobeRoverTests-Info.plist"; sourceTree = "<group>"; };
+		FA5893341777530200EB7F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA5893361777530200EB7F59 /* GlobeRoverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobeRoverTests.h; sourceTree = "<group>"; };
+		FA5893371777530200EB7F59 /* GlobeRoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobeRoverTests.m; sourceTree = "<group>"; };
+		FA589343177753DD00EB7F59 /* bitbucket-globerover.webloc */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "bitbucket-globerover.webloc"; sourceTree = "<group>"; };
+		FA5893461777542D00EB7F59 /* GRVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVAppDelegate.h; sourceTree = "<group>"; };
+		FA5893471777542D00EB7F59 /* GRVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVAppDelegate.m; sourceTree = "<group>"; };
+		FA5893481777542D00EB7F59 /* GRVFlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVFlipsideViewController.h; sourceTree = "<group>"; };
+		FA5893491777542D00EB7F59 /* GRVFlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVFlipsideViewController.m; sourceTree = "<group>"; };
+		FA58934A1777542D00EB7F59 /* GRVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVMainViewController.h; sourceTree = "<group>"; };
+		FA58934B1777542D00EB7F59 /* GRVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVMainViewController.m; sourceTree = "<group>"; };
+		FA58934C1777542D00EB7F59 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA589352177754AF00EB7F59 /* GlobeRover-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GlobeRover-Prefix.pch"; sourceTree = "<group>"; };
+		FA589354177754E200EB7F59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA589355177754E200EB7F59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA589356177754E200EB7F59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA589358177754E200EB7F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA58935A177754E200EB7F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FA58935C177754E200EB7F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FA58935D177754E200EB7F59 /* GlobeRover-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GlobeRover-Info.plist"; sourceTree = "<group>"; };
+		FA58935F177754E200EB7F59 /* GlobeRover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlobeRover.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5892F41777530100EB7F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5892FB1777530100EB7F59 /* UIKit.framework in Frameworks */,
+				FA5892FD1777530100EB7F59 /* Foundation.framework in Frameworks */,
+				FA5892FF1777530100EB7F59 /* CoreGraphics.framework in Frameworks */,
+				FA5893011777530100EB7F59 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5893241777530200EB7F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA58932A1777530200EB7F59 /* SenTestingKit.framework in Frameworks */,
+				FA58932B1777530200EB7F59 /* UIKit.framework in Frameworks */,
+				FA58932C1777530200EB7F59 /* Foundation.framework in Frameworks */,
+				FA58932D1777530200EB7F59 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5892EE1777530100EB7F59 = {
+			isa = PBXGroup;
+			children = (
+				FA589342177753DD00EB7F59 /* notes */,
+				FA5893451777542D00EB7F59 /* source */,
+				FA589353177754E200EB7F59 /* resources */,
+				FA589351177754AF00EB7F59 /* config */,
+				FA5893301777530200EB7F59 /* GlobeRoverTests */,
+				FA5892F91777530100EB7F59 /* Frameworks */,
+				FA5892F81777530100EB7F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5892F81777530100EB7F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5892F71777530100EB7F59 /* GlobeRover.app */,
+				FA5893281777530200EB7F59 /* GlobeRoverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5892F91777530100EB7F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5892FA1777530100EB7F59 /* UIKit.framework */,
+				FA5892FC1777530100EB7F59 /* Foundation.framework */,
+				FA5892FE1777530100EB7F59 /* CoreGraphics.framework */,
+				FA5893001777530100EB7F59 /* CoreData.framework */,
+				FA5893291777530200EB7F59 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5893301777530200EB7F59 /* GlobeRoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5893361777530200EB7F59 /* GlobeRoverTests.h */,
+				FA5893371777530200EB7F59 /* GlobeRoverTests.m */,
+				FA5893311777530200EB7F59 /* Supporting Files */,
+			);
+			path = GlobeRoverTests;
+			sourceTree = "<group>";
+		};
+		FA5893311777530200EB7F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5893321777530200EB7F59 /* GlobeRoverTests-Info.plist */,
+				FA5893331777530200EB7F59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA589342177753DD00EB7F59 /* notes */ = {
+			isa = PBXGroup;
+			children = (
+				FA589343177753DD00EB7F59 /* bitbucket-globerover.webloc */,
+			);
+			name = notes;
+			path = GlobeRover/notes;
+			sourceTree = "<group>";
+		};
+		FA5893451777542D00EB7F59 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				FA5893461777542D00EB7F59 /* GRVAppDelegate.h */,
+				FA5893471777542D00EB7F59 /* GRVAppDelegate.m */,
+				FA5893481777542D00EB7F59 /* GRVFlipsideViewController.h */,
+				FA5893491777542D00EB7F59 /* GRVFlipsideViewController.m */,
+				FA58934A1777542D00EB7F59 /* GRVMainViewController.h */,
+				FA58934B1777542D00EB7F59 /* GRVMainViewController.m */,
+				FA58934C1777542D00EB7F59 /* main.m */,
+			);
+			name = source;
+			path = GlobeRover/source;
+			sourceTree = "<group>";
+		};
+		FA589351177754AF00EB7F59 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				FA589352177754AF00EB7F59 /* GlobeRover-Prefix.pch */,
+			);
+			name = config;
+			path = GlobeRover/config;
+			sourceTree = "<group>";
+		};
+		FA589353177754E200EB7F59 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA589354177754E200EB7F59 /* Default-568h@2x.png */,
+				FA589355177754E200EB7F59 /* Default.png */,
+				FA589356177754E200EB7F59 /* Default@2x.png */,
+				FA589357177754E200EB7F59 /* InfoPlist.strings */,
+				FA589359177754E200EB7F59 /* MainStoryboard_iPad.storyboard */,
+				FA58935B177754E200EB7F59 /* MainStoryboard_iPhone.storyboard */,
+				FA58935D177754E200EB7F59 /* GlobeRover-Info.plist */,
+				FA58935E177754E200EB7F59 /* GlobeRover.xcdatamodeld */,
+			);
+			name = resources;
+			path = GlobeRover/resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5892F61777530100EB7F59 /* GlobeRover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA58933B1777530200EB7F59 /* Build configuration list for PBXNativeTarget "GlobeRover" */;
+			buildPhases = (
+				FA5892F31777530100EB7F59 /* Sources */,
+				FA5892F41777530100EB7F59 /* Frameworks */,
+				FA5892F51777530100EB7F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobeRover;
+			productName = GlobeRover;
+			productReference = FA5892F71777530100EB7F59 /* GlobeRover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5893271777530200EB7F59 /* GlobeRoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA58933E1777530200EB7F59 /* Build configuration list for PBXNativeTarget "GlobeRoverTests" */;
+			buildPhases = (
+				FA5893231777530200EB7F59 /* Sources */,
+				FA5893241777530200EB7F59 /* Frameworks */,
+				FA5893251777530200EB7F59 /* Resources */,
+				FA5893261777530200EB7F59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA58932F1777530200EB7F59 /* PBXTargetDependency */,
+			);
+			name = GlobeRoverTests;
+			productName = GlobeRoverTests;
+			productReference = FA5893281777530200EB7F59 /* GlobeRoverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5892EF1777530100EB7F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GRV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Trollwerks Inc.";
+			};
+			buildConfigurationList = FA5892F21777530100EB7F59 /* Build configuration list for PBXProject "GlobeRover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA5892EE1777530100EB7F59;
+			productRefGroup = FA5892F81777530100EB7F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5892F61777530100EB7F59 /* GlobeRover */,
+				FA5893271777530200EB7F59 /* GlobeRoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5892F51777530100EB7F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA589344177753DD00EB7F59 /* bitbucket-globerover.webloc in Resources */,
+				FA589360177754E200EB7F59 /* Default-568h@2x.png in Resources */,
+				FA589361177754E200EB7F59 /* Default.png in Resources */,
+				FA589362177754E200EB7F59 /* Default@2x.png in Resources */,
+				FA589363177754E200EB7F59 /* InfoPlist.strings in Resources */,
+				FA589364177754E200EB7F59 /* MainStoryboard_iPad.storyboard in Resources */,
+				FA589365177754E200EB7F59 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5893251777530200EB7F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5893351777530200EB7F59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA5893261777530200EB7F59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5892F31777530100EB7F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA58934D1777542D00EB7F59 /* GRVAppDelegate.m in Sources */,
+				FA58934E1777542D00EB7F59 /* GRVFlipsideViewController.m in Sources */,
+				FA58934F1777542D00EB7F59 /* GRVMainViewController.m in Sources */,
+				FA5893501777542D00EB7F59 /* main.m in Sources */,
+				FA589367177754E200EB7F59 /* GlobeRover.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5893231777530200EB7F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5893381777530200EB7F59 /* GlobeRoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA58932F1777530200EB7F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5892F61777530100EB7F59 /* GlobeRover */;
+			targetProxy = FA58932E1777530200EB7F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5893331777530200EB7F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5893341777530200EB7F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA589357177754E200EB7F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA589358177754E200EB7F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA589359177754E200EB7F59 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA58935A177754E200EB7F59 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA58935B177754E200EB7F59 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA58935C177754E200EB7F59 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5893391777530200EB7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Curylo (5N42538C89)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "272C60BE-85C6-41EE-B887-4C1FB2CB047B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA58933A1777530200EB7F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trollwerks Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D73D6405-BF04-4300-9E88-EC7853D6FE96";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA58933C1777530200EB7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobeRover/config/GlobeRover-Prefix.pch";
+				INFOPLIST_FILE = "GlobeRover/resources/GlobeRover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA58933D1777530200EB7F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobeRover/config/GlobeRover-Prefix.pch";
+				INFOPLIST_FILE = "GlobeRover/resources/GlobeRover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA58933F1777530200EB7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlobeRover.app/GlobeRover";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobeRover/GlobeRover-Prefix.pch";
+				INFOPLIST_FILE = "GlobeRoverTests/GlobeRoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA5893401777530200EB7F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlobeRover.app/GlobeRover";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobeRover/GlobeRover-Prefix.pch";
+				INFOPLIST_FILE = "GlobeRoverTests/GlobeRoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5892F21777530100EB7F59 /* Build configuration list for PBXProject "GlobeRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5893391777530200EB7F59 /* Debug */,
+				FA58933A1777530200EB7F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA58933B1777530200EB7F59 /* Build configuration list for PBXNativeTarget "GlobeRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA58933C1777530200EB7F59 /* Debug */,
+				FA58933D1777530200EB7F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA58933E1777530200EB7F59 /* Build configuration list for PBXNativeTarget "GlobeRoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA58933F1777530200EB7F59 /* Debug */,
+				FA5893401777530200EB7F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA58935E177754E200EB7F59 /* GlobeRover.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA58935F177754E200EB7F59 /* GlobeRover.xcdatamodel */,
+			);
+			currentVersion = FA58935F177754E200EB7F59 /* GlobeRover.xcdatamodel */;
+			path = GlobeRover.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA5892EF1777530100EB7F59 /* Project object */;
+}
