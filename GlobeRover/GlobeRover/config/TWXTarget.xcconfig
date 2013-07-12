@@ -1,0 +1,16 @@
+//
+//  TWXTarget.xcconfig
+//
+//  Copyright 2013 Trollwerks Inc. All rights reserved.
+//
+
+PRODUCT_NAME = GlobeRover
+
+// might as well just set these in build panel
+//"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trollwerks Inc.";
+//"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6906C5A2-C360-41C2-BE88-CADE1A43E018";
+
+GCC_PREFIX_HEADER = GlobeRover/config/TWXProjectPrefix.pch
+
+INFOPLIST_FILE = GlobeRover/resources/GlobeRover-Info.plist
+//INFOPLIST_PREFIX_HEADER = GlobeRover/resources/version.h
