@@ -15,6 +15,8 @@
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, copy) void (^blockHolder)(NSString *someVar);
+
 
 @end
 
@@ -37,8 +39,23 @@
 	}
 }
 
+- (NSString *)processData:(NSString *)someVar
+{
+    return someVar;
+}
+
 - (BOOL)application:(UIApplication *) __unused application didFinishLaunchingWithOptions:(NSDictionary *) __unused launchOptions
 {
+    
+    __block NSString *anotherVar = @"just testing";
+    __weak typeof(self) weak_self = self;
+    self.blockHolder = ^(NSString *someVar) {
+        GRVAppDelegate *strong_self = weak_self;
+        anotherVar = [strong_self processData:someVar];
+    };
+    self.blockHolder(@"test");
+inputView
+    
     twlog("FYI: launched %@ %@(%@) options: %@",
           [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"],
           [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"],
@@ -46,6 +63,11 @@
           launchOptions
           );
     
+    uint count = 3;
+    NSString *test = @(count).stringValue;
+    NSLog(test);
+    
+
     //[self startReachabilityChecks];
     
     [TWXAnalytics.sharedInstance startSession];

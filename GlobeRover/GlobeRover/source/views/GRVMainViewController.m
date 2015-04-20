@@ -62,7 +62,7 @@
             // if there's some way to detect left or right startup,
             // we should spin transform from matching it to the proper one here.
         }
-        backgroundView.transform = CGAffineTransformMakeRotation(-M_PI_2);
+        backgroundView.transform = CGAffineTransformMakeRotation((float)-M_PI_2);
     }
 }
 

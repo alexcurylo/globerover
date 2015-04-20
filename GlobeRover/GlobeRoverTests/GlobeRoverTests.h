@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Trollwerks Inc. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface GlobeRoverTests : SenTestCase
+@interface GlobeRoverTests : XCTestCase
 
 @end

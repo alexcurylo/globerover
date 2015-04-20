@@ -2,35 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A1F9AD12-7FDB-471A-BAA2-0A554E313AA6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GlobeRover</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>17FCB81B-24DC-4BAA-A9F0-12E876C719E0</key>
+		<key>DF00292512448DB7A69F47BAE9AA6B876F1AD4A1</key>
 		<string>https://bitbucket.org/alexcurylo/globerover.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GlobeRover/GlobeRover.xcodeproj/project.xcworkspace</string>
+	<string>GlobeRover/GlobeRover.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>17FCB81B-24DC-4BAA-A9F0-12E876C719E0</key>
+		<key>DF00292512448DB7A69F47BAE9AA6B876F1AD4A1</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://bitbucket.org/alexcurylo/globerover.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>17FCB81B-24DC-4BAA-A9F0-12E876C719E0</string>
+	<string>DF00292512448DB7A69F47BAE9AA6B876F1AD4A1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>17FCB81B-24DC-4BAA-A9F0-12E876C719E0</string>
+			<string>DF00292512448DB7A69F47BAE9AA6B876F1AD4A1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>bitbucket-globerover</string>
 		</dict>
