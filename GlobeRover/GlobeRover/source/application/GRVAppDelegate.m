@@ -54,7 +54,6 @@
         anotherVar = [strong_self processData:someVar];
     };
     self.blockHolder(@"test");
-inputView
     
     twlog("FYI: launched %@ %@(%@) options: %@",
           [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"],
